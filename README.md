@@ -1,6 +1,9 @@
-# A Simeple Agentic AI Project 一个简单的本地 Agentic AI 的项目
+# A Simeple Small Agentic AI Project 一个简单、小型的本地 Agentic AI 的项目
 - 启动方式：
 - 先进入项目文件夹`agent`，启动前在`run.sh中配置好API`
+- 注意作者测试使用的是`cloudflared`临时通道连接本地`ollama API`
+- 若要使用请自行配置`API`，目前仅支持`ollama`
+
 ```bash
     chmod +x run.sh
     ./run.sh    
@@ -11,6 +14,8 @@
     /models 获取现有模型
     /model  选择模型
 ```
+![alt text](image.png)
+
 ## 基本信息
 - **名称**: 本地编码代理 (Local Coding Agent)
 - **运行环境**: 挂载工作区 /home/hoyovale/agent/workspace
