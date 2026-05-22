@@ -1,0 +1,11 @@
+{
+  "name": "local-coding-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/cli.js",
+    "dev": "node --watch src/cli.js",
+    "test": "node --test test/*.test.js"
+  }
+}

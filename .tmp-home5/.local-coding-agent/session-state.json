@@ -1,0 +1,9 @@
+{
+  "recentBaseUrls": [
+    "http://127.0.0.1:11434"
+  ],
+  "recentModels": [
+    "gemma3:12b",
+    "qwen3.5:9b"
+  ]
+}
