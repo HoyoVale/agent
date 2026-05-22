@@ -3,7 +3,7 @@
 - 先进入项目文件夹`agent`，启动前在`run.sh中配置好API`
 - 注意作者测试使用的是`cloudflared`临时通道连接本地`ollama API`
 - 若要使用请自行配置`API`，目前仅支持`ollama`
-
+- 最好选`qwen-9b`
 ```bash
     chmod +x run.sh
     ./run.sh    
